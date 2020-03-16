@@ -62,16 +62,21 @@ font-size: px;
     margin-right: 270px;
 }
 
- #datediv input{
-    width: 300px;
-    height: 35px;
-}
 #textdiv input{
     width: 300px;
     height: 30px;
 }
+ #datediv input{
+    width: 300px;
+    height: 35px;
+
+    font-size: 15px;
+}
 
 #submit{
-    margin-left: 250px;
-    color: blue;
+    margin-left: 220px;
+    background-color: #6d8adbc7;
+    width: 90px;
+    height: 30px;
+    cursor:pointer;
 }
