@@ -14,7 +14,7 @@ header{
 }
 h1{
    color: white;
-   margin-top: 0
+   margin-top: 0px;
 }
 h2{
     font-size: 30px;
@@ -71,3 +71,7 @@ font-size: px;
     height: 30px;
 }
 
+#submit{
+    margin-left: 250px;
+    color: blue;
+}

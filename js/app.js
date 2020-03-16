@@ -21,6 +21,7 @@ function ToDoConstructor(toDo,date){
 }
 
 
+///render  after submit
 
 var myForm = document.getElementById('form')
 myForm.addEventListener('submit',render)
@@ -47,6 +48,9 @@ function render(event){
     
 }
 
+
+// Stroing data and getting them
+
 function storeToDoList(){
 
   var localToDo =  JSON.stringify(ToDoArrayOfObject)
@@ -61,8 +65,8 @@ function getToDoList(){
 
         ToDoArrayOfObject =  JSON.parse(localToDo)
     }
-    return console.log(localToDo);
-    render();
+    return render();
+    
     
 }
  getToDoList()
