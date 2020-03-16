@@ -62,6 +62,7 @@ function getToDoList(){
         ToDoArrayOfObject =  JSON.parse(localToDo)
     }
     return console.log(localToDo);
+    render();
     
 }
  getToDoList()
