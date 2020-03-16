@@ -1,8 +1,8 @@
 'use strict'
 
 
-var array = [5,3,2,9];
-var no = 1;
+var array = [18,3,8,10,90];
+var no =4 ;
 var counter= 0;
 
 function greaterThan(arrayParameter,numberParameter){
